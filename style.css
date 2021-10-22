@@ -1,0 +1,746 @@
+.sale {
+    height: 36px;
+    background: #000F9F;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav li {
+    padding-right: 25px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+header {
+    padding-top: 28px;
+}
+
+.logo img {
+    max-width: 121px;
+    max-height: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.firstPage {
+    justify-content: end;
+}
+
+.firstPage img {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.info {
+    max-width: 720px;
+    width: 100%;
+    padding-left: 108px;
+}
+
+.info h1 {
+    padding-top: 45px;
+    font-weight: 400;
+    font-size: 66px;
+    letter-spacing: 3.2px;
+}
+
+.info h2 {
+    max-width: 500px;
+    width: 100%;
+    padding-top: 35px;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    padding-bottom: 35px;
+}
+
+.title {
+    padding: 83px 108px 18px;
+}
+
+.title h2 {
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 3.4px;
+}
+
+.title button {
+    max-width: 250px;
+    width: 100%;
+    background: #202020;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.carousel-item h3 {
+    padding-top: 16px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.carousel-item span {
+    padding-top: 13px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #737373;
+}
+
+.carousel-inner-slide img {
+    max-width: 579px;
+    width: 100%;
+}
+
+.main {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.main div {
+    padding-bottom: 84px;
+}
+
+.leftPage {
+    padding-top: 264px;
+}
+
+.rightPage {
+    padding-top: 264px;
+    padding-left: 48px;
+}
+
+.main img {
+    max-width: 582px;
+    width: 100%;
+    max-height: 776px;
+    height: 100%;
+}
+
+.main h2 {
+    font-size: 61px;
+    letter-spacing: 3.2px;
+}
+
+.main p {
+    max-width: 520px;
+    width: 100%;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+}
+
+.main button {
+    background: #202020;
+    color: #FFFFFF;
+}
+
+.btn__shoes {
+    max-width: 253px;
+    width: 100%;
+}
+
+.main button:hover {
+    background: #b9abab;
+}
+
+.btn__shoes:hover {
+    background: #b9abab;
+}
+
+.title button:hover {
+    background: #b9abab;
+}
+
+.firstPage button:hover {
+    background: #dddada;
+}
+
+.secondPage {
+    padding-top: 84px;
+}
+
+.shops img {
+    max-width: 718px;
+    width: 100%;
+}
+
+.story {
+    margin-top: 85px;
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.story p {
+    max-width: 1058px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 71px;
+    letter-spacing: 3.5px;
+}
+
+.story h3 {
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 3.5px;
+}
+
+.story button span {
+    padding-top: 17px;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+@media all and (max-width: 1024px) {
+    .info {
+        max-width: 550px;
+        width: 90%;
+        padding-left: 100px;
+    }
+    .info h1 {
+        font-size: 48px;
+    }
+    .info h2 {
+        max-width: 440px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .title {
+        padding: 83px 95px 18px;
+    }
+    .title h2 {
+        font-size: 55px;
+        font-weight: 400;
+        letter-spacing: 3.4px;
+    }
+    .title button {
+        width: 245px;
+    }
+    .carousel-inner-slide img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .main {
+        padding: 0 95px;
+    }
+    .leftPage {
+        padding-top: 100px;
+    }
+    .rightPage {
+        padding-top: 100px;
+        padding-left: 48px;
+    }
+    .main div {
+        padding-bottom: 78px;
+    }
+    .main img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .main h2 {
+        font-size: 48px;
+        letter-spacing: 3.2px;
+    }
+    .main p {
+        max-width: 400px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .shops {
+        padding-top: 85px;
+    }
+    .shops img {
+        max-width: 510px;
+        width: 100%;
+    }
+    .story {
+        margin-top: 85px;
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+    .story p {
+        max-width: 700px;
+        width: 100%;
+        font-size: 55px;
+        letter-spacing: 2.5px;
+    }
+    .story h3 {
+        font-size: 50px;
+        letter-spacing: 2.5px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .sale {
+        height: 20px;
+    }
+    .sale h3 {
+        font-size: 10px;
+    }
+    .nav li {
+        font-size: 10px;
+    }
+    header {
+        padding-top: 20px;
+    }
+    .firstPage img {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .icon img {
+        width: 20px;
+        margin-left: 10px;
+    }
+    .info {
+        max-width: 450px;
+        width: 90%;
+        padding-left: 90px;
+    }
+    .info h1 {
+        padding-top: 30px;
+        font-size: 35px;
+    }
+    .info h2 {
+        padding: 20px 0;
+        max-width: 350px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .info button {
+        width: 105px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .title {
+        padding: 50px 50px 18px;
+    }
+    .title h2 {
+        font-size: 38px;
+        font-weight: 400;
+        letter-spacing: 3.4px;
+    }
+    .title button {
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .carousel-inner-slide img {
+        max-width: 320px;
+        width: 100%;
+    }
+    .carousel-control-prev {
+        padding-left: 20px;
+    }
+    .carousel-control-next {
+        padding-right: 20px;
+    }
+    .carousel-inner button img {
+        width: 13px;
+    }
+    .carousel-item h3 {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .carousel-item span {
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .main {
+        padding: 0 50px;
+    }
+    .leftPage {
+        padding-top: 50px;
+    }
+    .rightPage {
+        padding-top: 100px;
+        padding-left: 48px;
+    }
+    .main div {
+        padding-bottom: 65px;
+    }
+    .main img {
+        max-width: 320px;
+        width: 100%;
+    }
+    .main h2 {
+        font-size: 30px;
+        letter-spacing: 3.2px;
+    }
+    .main p {
+        max-width: 320px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .main button {
+        font-size: 12px;
+        height: 35px;
+        width: 120px;
+    }
+    .shops {
+        padding-top: 0px;
+    }
+    .shops img {
+        max-width: 382px;
+        width: 100%;
+    }
+    .story {
+        margin-top: 50px;
+        padding: 0 50px;
+    }
+    .story p {
+        max-width: 500px;
+        width: 100%;
+        font-size: 35px;
+        letter-spacing: 1.5px;
+    }
+    .story h3 {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+    .story button {
+        width: 100px;
+    }
+    .story button span {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 560px) {
+    .sale {
+        height: 20px;
+    }
+    .sale h3 {
+        font-size: 10px;
+    }
+    .nav li {
+        font-size: 10px;
+    }
+    header {
+        padding-top: 20px;
+    }
+    .firstPage img {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .icon img {
+        width: 20px;
+        margin-left: 10px;
+    }
+    .info {
+        max-width: 310px;
+        width: 90%;
+        padding-left: 100px;
+    }
+    .info h1 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .info h2 {
+        padding: 10px 0;
+        max-width: 350px;
+        width: 100%;
+        font-size: 10px;
+    }
+    .info button {
+        width: 105px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .title {
+        padding: 50px 50px 18px;
+    }
+    .title h2 {
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 3.4px;
+    }
+    .title button {
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .carousel-inner-slide img {
+        max-width: 200px;
+        width: 100%;
+    }
+    .carousel-control-prev {
+        padding-left: 20px;
+    }
+    .carousel-control-next {
+        padding-right: 20px;
+    }
+    .carousel-inner button img {
+        width: 10px;
+    }
+    .carousel-item h3 {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .carousel-item span {
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .main {
+        padding: 0 30px;
+    }
+    .leftPage {
+        padding-top: 50px;
+    }
+    .rightPage {
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+    .main div {
+        padding-bottom: 50px;
+    }
+    .main img {
+        max-width: 230px;
+        width: 100%;
+    }
+    .main h2 {
+        font-size: 20px;
+        letter-spacing: 3.2px;
+    }
+    .main p {
+        max-width: 320px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .main button {
+        font-size: 10px;
+        height: 30px;
+        width: 100px;
+    }
+    .shops img {
+        max-width: 277px;
+        width: 100%;
+    }
+    .story {
+        margin-top: 45px;
+        padding: 0 50px;
+    }
+    .story p {
+        max-width: 400px;
+        width: 100%;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    .story h3 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .story button {
+        width: 100px;
+    }
+    .story button span {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .sale {
+        height: 15px;
+    }
+    .sale h3 {
+        font-size: 8px;
+    }
+    header {
+        padding-top: 5px !important;
+        justify-content: space-between;
+    }
+    .nav {
+        display: none;
+    }
+    .icon img {
+        width: 20px;
+    }
+    .firstPage h1 {
+        padding-top: 20px;
+    }
+    .firstPage img {
+        margin-top: 10px;
+    }
+    .main {
+        padding: 5px;
+    }
+    .main h2 {
+        font-size: 20px;
+        letter-spacing: 3.2px;
+    }
+    .main p {
+        max-width: 115px;
+        width: 100%;
+        font-size: 10px;
+        letter-spacing: 0.3px;
+    }
+    .nav li {
+        display: none;
+    }
+    header {
+        padding-top: 28px;
+    }
+    .logo img {
+        width: 60%;
+        height: 60%;
+        margin-right: 55px;
+    }
+    .info {
+        max-width: 200px;
+        width: 40%;
+        padding-left: 1px;
+    }
+    .info h1 {
+        padding-top: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }
+    .info h2 {
+        display: none;
+    }
+    .info button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .title {
+        padding: 50px 20px 18px;
+    }
+    .title h2 {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+    }
+    .title button {
+        max-width: 120px;
+        width: 80%;
+        height: 25px;
+        background: #202020;
+        color: #FFFFFF;
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .carousel-inner-slide img {
+        width: 160px;
+    }
+    .carousel-item h3 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .carousel-item span {
+        padding-top: 5px;
+        font-weight: normal;
+        font-size: 12px;
+        color: #737373;
+    }
+    .carousel-control-prev img {
+        padding-right: 0px;
+    }
+    .main {
+        padding: 0 20px;
+    }
+    .leftPage {
+        padding-top: 30px;
+    }
+    .rightPage {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .main img {
+        max-width: 582px;
+        width: 50%;
+        max-height: 776px;
+        height: 100%;
+    }
+    .main h2 {
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }
+    .main p {
+        max-width: 520px;
+        width: 100%;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+    }
+    .main button {
+        background: #202020;
+        color: #FFFFFF;
+        font-size: 10px;
+        width: 95px;
+        height: 25px;
+    }
+    .btn__shoes {
+        max-width: 180px;
+    }
+    .main button:hover {
+        background: #b9abab;
+    }
+    .btn__shoes:hover {
+        background: #b9abab;
+    }
+    .title button:hover {
+        background: #b9abab;
+    }
+    .firstPage button:hover {
+        background: #dddada;
+    }
+    .secondPage {
+        padding-top: 20px;
+    }
+    .shops {
+        padding-top: 20px;
+    }
+    .shops img {
+        max-width: 210px;
+        width: 100%;
+    }
+    .story {
+       padding: 0 20px;
+    }
+    .story p {
+        max-width: 300px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1.2px;
+    }
+    .story h3 {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }
+    .story button {
+        width: 70px;
+    }
+    .story button span {
+        padding-top: 5px;
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    .story button img {
+        width: 10px;
+    }
+}
+@media all and (max-width: 380px) {
+    .title h2{
+        font-size: 17px;
+    }
+    .shops img {
+        max-width: 185px !important;
+        width: 100%;
+    }
+}
+
+
+
+
